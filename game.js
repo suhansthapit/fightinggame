@@ -16,10 +16,10 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image('kraken', 'assets/images/kraken.png');
-    this.load.image('godzilla', 'assets/images/godzilla.png');
-    this.load.image('bloop', 'assets/images/bloop.png');
-    this.load.image('background', 'assets/images/fight_background.png');
+    this.load.image('kraken', 'assets/images/kraken.jpg');
+    this.load.image('godzilla', 'assets/images/godzilla.jpg');
+    this.load.image('bloop', 'assets/images/bloop.jpg');
+    this.load.image('background', 'assets/images/fight_background.jpg');
 }
 
 function create() {
